@@ -1,10 +1,11 @@
-# 1.	Create three variables in a single a line and assign different values to them and make sure their data types are different. Like one is int, another one is float and the last one is a string.
+# 8. 	Write a program in Python to iterate through the string “hello my name is abcde” 
+# and print the string which has even length of word.
 
-x = 5
-y = 10.25
-z = "Consultadd"
-print(x)
-print(y)
-print(z)
+
+inStr = "hello my name is abcde"
+x = inStr.split()
+for i in x:
+    if(len(i)%2 ==0):
+        print(i)
 
 

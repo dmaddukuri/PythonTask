@@ -1,10 +1,5 @@
-# 1.	Create three variables in a single a line and assign different values to them and make sure their data types are different. Like one is int, another one is float and the last one is a string.
+# How Tuple is beneficial as compare to the list?
 
-x = 5
-y = 10.25
-z = "Consultadd"
-print(x)
-print(y)
-print(z)
-
-
+""" It makes your code safer if you “write-protect” data that does not need to be changed.
+ Some tuples can be used as dictionary keys(specifically, tuples that contain immutable values like strings, 
+ numbers, and other tuples)."""

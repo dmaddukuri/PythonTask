@@ -1,10 +1,7 @@
-# 1.	Create three variables in a single a line and assign different values to them and make sure their data types are different. Like one is int, another one is float and the last one is a string.
+# Write a program in Python to iterate through the list of numbers in the 
+# range of 1,100 and print the number which is divisible by 3 and a multiple of 2.
 
-x = 5
-y = 10.25
-z = "Consultadd"
-print(x)
-print(y)
-print(z)
-
+for a in range(1, 101):
+    if(a%3 ==0 and a%2==0):
+        print(a)
 
